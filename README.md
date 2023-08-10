@@ -19,3 +19,5 @@ The data for this project is available at [kaggle](https://www.kaggle.com/datase
 |Pred   |   It has a mixture of 60 Brain MRI Images for prediction |
 
 
+
+
