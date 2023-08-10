@@ -10,4 +10,12 @@ The Brain Tumor Detection Project is an artificial intelligence project designed
 
 
 ### Dataset
-The data for this project is available on [kaggle](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection)
+The data for this project is available at [kaggle](https://www.kaggle.com/datasets/ahmedhamada0/brain-tumor-detection). The dataset contains 3 folders, _Yes, No and Pred_ which contains 3060 Brain MRI Images.
+
+|   Folder   |  Description    |
+|------------|-----------------|
+|Yes    |   It has 1500 Brain MRI Images that are tumorous  |
+|No     |   It has 1500 Brain MRI Images that are non-tumorous  |
+|Pred   |   It has a mixture of 60 Brain MRI Images for prediction |
+
+
