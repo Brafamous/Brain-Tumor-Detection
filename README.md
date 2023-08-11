@@ -77,3 +77,8 @@ _Based on the plots of the confusion matrix, the CNN model shows higher true pos
 ## Training Time
 
 _The CNN model outperformed the SVM model in terms of training time, taking approximately 55 seconds compared to the SVM model's 449 seconds. This can be attributed to the CNN's specialized architecture for image analysis tasks like brain tumor detection, while the SVM's optimization process and support vector complexity contributed to its longer training time. The CNN's faster training time offers advantages for dealing with large datasets and situations where quick model training is desired. Overall, the CNN model demonstrated a notable advantage over the SVM model in terms of training efficiency._
+
+## CNN Model Testing With Unseen Data
+_The model was tested with 60 new MRI Brain images and the model performed very well. I displaced 20 of them as can be seen below._
+![prediction Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/predicted.png)
+
