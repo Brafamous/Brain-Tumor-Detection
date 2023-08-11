@@ -42,5 +42,5 @@ The data for this project is available at [kaggle](https://www.kaggle.com/datase
 * The output layer has 1 unit and uses a sigmoid activation function.
 * This architecture is suitable for binary classification tasks.
 
-## Notebook Visualisation
-[Click here to view the notebook on nbviewer](https://nbviewer.jupyter.org/url/https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/BTD_Training.ipynb)
+## Notebook Visualization
+[Click here to view the notebook on nbviewer](https://nbviewer.jupyter.org/github/Brafamous/Brain-Tumor-Detection/blob/main/BTD_Training.ipynb)
