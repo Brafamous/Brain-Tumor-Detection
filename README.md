@@ -1,4 +1,4 @@
-# Brain Tumor Detection Using Machine Learning
+# Brain Tumor Detection Using Deep Learning (CNN)
 
 A brain tumor is an abnormal growth of tissue in the brain or central spine that can disrupt proper brain function. It is the abnormal growth of tissues in brain. If the tumor originates in the brain, it is called a primary brain tumor. Primary brain tumors can be benign or malignant. Benign brain tumors are not cancerous.
 
@@ -54,4 +54,26 @@ The model's performance was evaluated alongside Support Vector Machine Model tra
 
 ## ROC Curve
 _CNN Model_
-![CNN Image]()
+![CNN Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/cnn_auc.png)
+
+_SVM Model_
+![SVM Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/svm_auc.png)
+
+
+* _As seen above,the CNN model achieved an AUC of 0.98, indicating excellent performance in distinguishing between positive and negative cases in brain tumor detection. On the other hand, the SVM model achieved an AUC of 0.97, which is slightly lower but still indicates a strong discriminatory ability._
+
+* _Considering the AUC values alone, the CNN model appears to perform marginally better than the SVM model._
+
+## Confusion Matrix
+CNN Model_
+![CNN Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/cnn_matrix.png)
+
+_SVM Model_
+![SVM Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/svm_matrix.png)
+
+
+_Based on the plots of the confusion matrix, the CNN model shows higher true positive and true negative values compared to the SVM model. This suggests that the CNN model has better accuracy in correctly predicting both the presence and absence of tumors._
+
+## Training Time
+
+_The CNN model outperformed the SVM model in terms of training time, taking approximately 55 seconds compared to the SVM model's 449 seconds. This can be attributed to the CNN's specialized architecture for image analysis tasks like brain tumor detection, while the SVM's optimization process and support vector complexity contributed to its longer training time. The CNN's faster training time offers advantages for dealing with large datasets and situations where quick model training is desired. Overall, the CNN model demonstrated a notable advantage over the SVM model in terms of training efficiency._
