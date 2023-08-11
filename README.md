@@ -45,3 +45,13 @@ The data for this project is available at [kaggle](https://www.kaggle.com/datase
 ## Notebook Visualization
 [Click here to view the notebook on nbviewer](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/BTD_Training.ipynb)
 
+
+### Model Evaluation 
+The model's performance was evaluated alongside Support Vector Machine Model trained initially. Some of the metrics used include:
+* Receiver Operating Characteristics
+* Confusion Matrix
+* Training Time
+
+## ROC Curve
+_CNN Model_
+![CNN Image]()
