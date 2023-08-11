@@ -20,4 +20,8 @@ The data for this project is available at [kaggle](https://www.kaggle.com/datase
 
 
 
+### Requirements
+|- Python |- Tensoflow |
+|---------|------------|
+|- Sklearn|- Matplotlib|
 
