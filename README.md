@@ -43,4 +43,5 @@ The data for this project is available at [kaggle](https://www.kaggle.com/datase
 * This architecture is suitable for binary classification tasks.
 
 ## Notebook Visualization
-[Click here to view the notebook on nbviewer](https://nbviewer.jupyter.org/github/Brafamous/Brain-Tumor-Detection/blob/main/BTD_Training.ipynb)
+[Click here to view the notebook on nbviewer](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/BTD_Training.ipynb)
+
