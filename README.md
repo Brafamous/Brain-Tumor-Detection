@@ -21,8 +21,10 @@ The data for this project is available at [kaggle](https://www.kaggle.com/datase
 
 
 ### Requirements
-|- Python |- Tensoflow |- Flask |
+|- Python |- Tensoflow |- Flask |- OpenCV|
 |---------|------------|--------|
 |- Sklearn|- Matplotlib|- Numpy |
-|- OpenCV|
+
+### The Network Architecture
+[![Architecture](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/bdt_detection.png)
 
