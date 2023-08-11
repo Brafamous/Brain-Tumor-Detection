@@ -27,5 +27,17 @@ The data for this project is available at [kaggle](https://www.kaggle.com/datase
 
 
 ### The Network Architecture
-[![Architecture](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/bdt_detection.png)]
+![Architecture](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/bdt_detection.png)
 
+## Network Description
+* The model is a Convolutional Neural Network (CNN) architecture.
+* It consists of multiple convolutional layers followed by max pooling layers.
+* The first convolutional layer has 32 filters, a kernel size of (3,3), and an input shape of (input_size, input_size, 3).
+* The activation function used is ReLU (Rectified Linear Unit).
+* Max pooling layers are added after each convolutional layer with a pool size of (2,2).
+* Additional convolutional layers are added with 32 and 64 filters respectively, both using '_he_uniform_' kernel initializer.
+* The output from the last convolutional layer is flattened.
+* A fully connected layer with 64 units and ReLU activation function is added.
+* A dropout layer with a dropout rate of 0.5 is included for regularization.
+* The output layer has 1 unit and uses a sigmoid activation function.
+* This architecture is suitable for binary classification tasks.
