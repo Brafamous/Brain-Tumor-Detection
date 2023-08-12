@@ -85,4 +85,4 @@ _The model was tested with 60 new MRI Brain images and the model performed very 
 ## Demo
 [Click here to watch the demo of the model](https://drive.google.com/file/d/18HpJe7-DOQ5dxls0G7jnBDS6CIO01s6r/view?usp=sharing)
 
-[Demo]((https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/Demo.mp4)
+
