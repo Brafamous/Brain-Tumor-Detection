@@ -1,0 +1,97 @@
+/* CSS code for styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    padding: 0;
+    background-color: #f1f1f1;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #df0c0f;
+  }
+  
+  h2 {
+    color: d #8c1618;
+  }
+
+  h3 {
+    color: #080000;
+    text-align: center;
+  }
+  
+  p {
+    color: #1c0404;
+    line-height: 1.5;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #ee6868;
+  }
+  
+  img {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    max-width: 100%;
+    height: auto; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+  }
+  
+  footer {
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* CSS code for hover effect */
+  .hover-effect:hover {
+    opacity: 0.8;
+  }
+  
+  /* CSS code for responsiveness */
+  @media (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  }
+
+    /* Add hover effect to table rows */
+    tr:hover {
+      background-color: #f2f2f2;
+    }
+    
+   
+    
+    /* Add hover effect to images */
+    img:hover {
+      opacity: 0.8;
+      transition: opacity 0.3s ease-in-out;
+    }
