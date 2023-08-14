@@ -6,7 +6,7 @@ A brain tumor is an abnormal growth of tissue in the brain or central spine that
 
 The Brain Tumor Detection Project is an artificial intelligence project designed to detect the presence of brain tumors in medical images such as MRI scans. This project utilizes deep learning techniques to analyze the images and classify them as either having a tumor or being tumor-free.
 
-[![Brain](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/brain.png)](https://www.youtube.com/watch?v=cSeXJKSQpiI)
+[![Brain](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/images/brain.png)](https://www.youtube.com/watch?v=cSeXJKSQpiI)
 
 
 ### Dataset
