@@ -82,8 +82,7 @@ _The CNN model outperformed the SVM model in terms of training time, taking appr
 _The model was tested with 60 new MRI Brain images and the model performed very well. I displaced 20 of them as can be seen below._
 ![prediction Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/predicted.png)
 
-
 ## Demo
+[Click here to watch the demo of the model](https://drive.google.com/file/d/18HpJe7-DOQ5dxls0G7jnBDS6CIO01s6r/view?usp=sharing)
 
-md
-[![Demo Video](https://drive.google.com/file/d/18HpJe7-DOQ5dxls0G7jnBDS6CIO01s6r/view?usp=sharing)](https://drive.google.com/file/d/18HpJe7-DOQ5dxls0G7jnBDS6CIO01s6r/view)
+
