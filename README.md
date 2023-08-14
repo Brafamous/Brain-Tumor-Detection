@@ -27,7 +27,7 @@ The data for this project is available at [kaggle](https://www.kaggle.com/datase
 
 
 ### The Network Architecture
-![Architecture](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/bdt_detection.png)
+![Architecture](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/images/bdt_detection.png)
 
 ## Network Description
 * The model is a Convolutional Neural Network (CNN) architecture.
@@ -54,10 +54,10 @@ The model's performance was evaluated alongside Support Vector Machine Model tra
 
 ## ROC Curve
 _CNN Model_
-![CNN Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/cnn_auc.png)
+![CNN Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/images/cnn_auc.png)
 
 _SVM Model_
-![SVM Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/svm_auc.png)
+![SVM Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/images/svm_auc.png)
 
 
 * _As seen above,the CNN model achieved an AUC of 0.98, indicating excellent performance in distinguishing between positive and negative cases in brain tumor detection. On the other hand, the SVM model achieved an AUC of 0.97, which is slightly lower but still indicates a strong discriminatory ability._
@@ -66,10 +66,10 @@ _SVM Model_
 
 ## Confusion Matrix
 CNN Model_
-![CNN Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/cnn_matrix.png)
+![CNN Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/images/cnn_matrix.png)
 
 _SVM Model_
-![SVM Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/svm_matrix.png)
+![SVM Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/images/svm_matrix.png)
 
 
 _Based on the plots of the confusion matrix, the CNN model shows higher true positive and true negative values compared to the SVM model. This suggests that the CNN model has better accuracy in correctly predicting both the presence and absence of tumors._
@@ -80,7 +80,7 @@ _The CNN model outperformed the SVM model in terms of training time, taking appr
 
 ## CNN Model Testing With Unseen Data
 _The model was tested with 60 new MRI Brain images and the model performed very well. I displaced 20 of them as can be seen below._
-![prediction Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/predicted.png)
+![prediction Image](https://github.com/Brafamous/Brain-Tumor-Detection/blob/main/images/predicted.png)
 
 ## Demo
 [Click here to watch the demo of the model](https://drive.google.com/file/d/18HpJe7-DOQ5dxls0G7jnBDS6CIO01s6r/view?usp=sharing)
